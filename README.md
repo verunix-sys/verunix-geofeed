@@ -1,9 +1,14 @@
-Geofeed
-This is public Geofeed information created for Verunix (Danis Danisman).
+# 🌐 Verunix Geofeed Data
 
-Geofeed values:
-Network, ISO Country Code, ISO Region Code, City Name, Postal Code
+This repository contains the public, self-published Geofeed information for **Verunix** (Danis Danisman), formatted in strict accordance with [RFC 8805](https://datatracker.ietf.org/doc/html/rfc8805).
 
-Examples:
-87.121.104.0/24,TR,TR-16,Bursa,16040
-87.121.104.0/24,TR,TR-34,Istanbul,34480
+Geofeed data allows Internet Service Providers (ISPs), Network Operators, and Geolocation Services to accurately map our IP prefixes to their respective geographical locations.
+
+---
+
+## 📊 Geofeed Format
+
+The data is structured as a comma-separated values (CSV) format, using the following schema (per line):
+
+```text
+Prefix, Country_Code, Region_Code, City_Name, Postal_Code
